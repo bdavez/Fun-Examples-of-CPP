@@ -1,2 +1,2 @@
 # Fun-Examples-of-C-
-Variety of C++ Programs Examples
+Variety of C++ Program Examples
