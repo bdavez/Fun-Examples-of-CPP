@@ -1,9 +1,3 @@
-/* 
-Name: Brendan Davis
-AU ID: 3616762
-Date: 2024-06-28 
-Program: Assignment 1 - Problem 4
-*/
 
 /*
  DOCUMENTATION
