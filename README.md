@@ -1,5 +1,5 @@
-# Fun-Examples of C++
-Variety of C++ Program Examples I created
+# Fun-Examples of CPP
+Variety of CPP Program Examples I created
 
 Program 1 
 
