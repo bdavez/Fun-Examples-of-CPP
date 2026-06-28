@@ -1,7 +1,7 @@
-# Fun-Examples of CPP
+## Fun-Examples of CPP
 Variety of CPP Program Examples I created
 
-#Program 1 
+# Program 1 
 
 Purpose: Create a program that prints out the multiplication times tables 
 
@@ -33,7 +33,7 @@ Overall this was a good first C++ program to start off. I did not have any issue
 
 
 
-#Program 2 
+## Program 2 
 
 Purpose: Create a program that converts fahrenheit to celsius and vice versa 
 
@@ -66,7 +66,7 @@ Then I built out the rest of the program inside a while loop. Following basic in
 
 Overall this program offered a slight hurdle when considering malformed input. The rest of the program went fairly smoothly, a good introduction to conditional logic as well as loops.
 
-#Program 3 
+## Program 3 
 
 Pseudocode: 
 Set variable for fahrenheit
@@ -94,7 +94,7 @@ cout << setprecision();
 Overall I found the formatting output of this program slightly frustrating to look clean.   After that was addressed it was fairly straightforward as most of the work was already completed in a similar manner for Program 2. This was a good chance for me to start using functions for me. It allowed for the code to look a lot cleaner. 
 
 
-#Program 4 
+## Program 4 
 
 Pseudocode:
 
@@ -122,7 +122,7 @@ I was able to use this with, user input.length in an if statement to detect if t
 Overall a fairly simple example of using loops with user input. I found that to avoid malformed input it was easier in this case if the switch statement keeps all decisions as a character instead of integer. When the input string is saved it's possible to just get the first character instead of having type conversions from string to integer. 
 
 
-#Program 5
+## Program 5
 
 Pseudocode:
 
@@ -139,7 +139,7 @@ I started off by creating a list to store the prime numbers. Then created two fo
 
 The first issue I had was there were multiple instances of the same numbers being printed. So I developed a secondary list known as list 2 as a temporary list. If the temporary list only contains 1 instance while going through all possibilities then its added into list1. This cleared up all issues. 
 
-#Program 6 
+## Program 6 
 
 I started off by referencing the Rooks Guide and double checked I had the correct syntax for opening and reading files. I wanted to make sure that the program did not crash if malformed input was used. I double checked the builtin functions for I/0 with <fstream> and noticed it had a fail() method. So if I used a quick if statement to determine if malformed input is used, if it is it will gracefully exit the program after displaying the error. 
 
@@ -149,7 +149,7 @@ Next I used a while loop with get() to check and make a comparison to a space(â€
 
 Overall I found no issues when developing this program. I found that the Rooks guide had all the information I needed. I noticed that the built-in function for fstream which was fail() was very useful and made things quick for malformed inputs.  
 
-#Program 7
+## Program 7
 
 This program was very straightforward. I started up by doing basic malformed input hardening. Then I ended up starting off the program by using the getline() function. I thought about it for a while and thought that the best course of action would be to use getline() then run that line through a loop and scan each character for the end of line escape character (\n). 
 
@@ -157,7 +157,7 @@ In order to implement the character scan of each line I just had to make a compa
 
 Overall quick program to write out. I found it useful to be able to use the infile stream to scan through a document one character at a time. 
 
-#Program 8
+## Program 8
 
 I realized that in this particular problem most of the information is stored in a class. So I started off by working within the TextFileReader class. Within the constructor, I decided to have it open the file. Following which I use two loops. The first loop was for getting a line within the document; the second loop would scan through the document and store each word up to a space. 
 
@@ -167,13 +167,13 @@ Next I ensured that the infile was closed. Then decided to build out two functio
 
 Overall I did not mind working on this program. The biggest issue I noticed was having the \r character getting saved in with the string variables. I found the way to remove it so its never in the variables which made the rest of the program development very straightforward. 
 
-#Program 9
+## Program 9
 
 I came across no issues when working with this program. I made 4 loops, one for each of the 3 arrays of floats then one to print out the results of array 3. I made sure to include the <cmath> library which has a built-in function for powf() a special function call for squaring floats. After I had the first two arrays loaded up with their values I ended up adding them together in the third loop. Following that I ensured the fourth loop was printing out the counter plus the array information. 
 
 Overall I found that this program went by pretty quickly. Things to remember are, a quick way to loop through an array is to use a for loop then at that point it's possible to use the iterator variable to access each array object then walk through the array.  Finding the built-in powf() function for the cmath library really made this program quick to develop. 
 
-#Program 10
+## Program 10
 
 I started off by creating the main class called Book. The Book object contains the 6 descriptive string about the book. I made sure to include the get/set functionality which includes a print out statement. 
 
